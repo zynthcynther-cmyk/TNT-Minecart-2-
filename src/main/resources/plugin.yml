@@ -1,0 +1,17 @@
+name: MinecartOrbital
+version: ${project.version}
+main: com.minecartorbital.MinecartOrbital
+api-version: "1.20"
+description: Summons TNT Minecarts from the sky.
+author: You
+
+commands:
+  minecartorbital:
+    description: Rain TNT Minecarts from the sky around you.
+    usage: /<command> [count] [radius]
+    permission: minecartorbital.use
+
+permissions:
+  minecartorbital.use:
+    description: Allows use of /minecartorbital
+    default: op
